@@ -1,151 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Trading Cards - SuperiorGames</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <meta charset="UTF-8">
+    <title>Trading Cards - SuperiorGames</title>
+    <link rel="stylesheet"
+          href="./css/style.css">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
 </head>
+
 <body>
 
-<div class="container">
-<div class="navbar">
-<div class="logo">
-<img src="logo.png" width="125px">
-</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="tradingcards.html">Trading Cards</a></li>
-<li><a href="">Board Games</a></li>
-<li><a href="">Services</a></li>
-<li><a href="">Locations</a></li>
-<li><a href="">Events</a></li>
-</ul>
-</nav>
-<img src="shoppingbag.png" width="30px" height="30px">
-</div>
-</div>
-<!------------------- single product details -------------------->
-<div class="small-container single-product">
-<div class="row">
-<div class="col-2">
-<img src="evolvingskiesboosterbox.png" width="100%">
-</div
-<div class="col-2">
-<p> Home / Trading Cards</p>
-<h1>Evolving Skies Booster Box</h1>
-<h4>$180.00</h4>
-<input type="number" value="1">
-<a href="" class="btn">Add To Cart</a>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/logo.png"
+                     width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tradingcards.html">Trading Cards</a></li>
+                    <li><a href="./boardGames.html">Board Games</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="">Events</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./img/shoppingbag.png"
+                 width="30px"
+                 height="30px"></a>
+        </div>
+    </div>
+    <!------------------- single product details -------------------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img id="setImg" src=" "
+                     width="100%">
+            </div> <div
+                  class="col-2">
+            <p> Home / <span id="pageFrom"> </span></p>
+            <h1 id="setHead"> </h1>
+            <h4 id="setPrice"> </h4>
+            <input type="number"
+                   value="1">
+            <a onclick="addtoCart()" href="javascript:void(0)"
+               class="btn">Add To Cart</a>
 
-</div>
-</div>
-</div>
+        </div>
+    </div>
+    </div>
+<br><br><br>
 
+    <div class="small-container">
 
-<div class="small-container">
+        <div class="row">
+            <div class="col-4">
+        
+                <a onclick="setData()"
+                   href="#">
+                    <img id="card-img"
+                         src="./img/evolvingskiesboosterbox.png">
+                    <h4 id="card-heading">Pokémon Evolving Skies Booster Box</h4>
+                    <p id="card-price">$180.00</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a onclick="setData1()"
+                   href="#">
+        
+                    <img id="card-img1"
+                         src="./img/vividvoltage.png">
+                    <h4 id="card-heading1">Vivid Voltage Booster Display</h4>
+                    <p id="card-price1">$140.00</p>
+                </a>
+        
+            </div>
+            <div class="col-4">
+                <a onclick="setData3()"
+                   href="#">
+        
+                    <img id="card-img3"
+                         src="./img/yugiohghost.png">
+                    <h4 id="card-heading3">Yu-Gi-Oh! Ghosts From The Past 2 Mini Box</h4>
+                    <p id="card-price3">$18.00</p>
+                </a>
+        
+            </div>
+            <div class="col-4">
+                <a onclick="setData4()"
+                   href="#">
+        
+                    <img id="card-img4"
+                         src="./img/mtg.png">
+                    <h4 id="card-heading4">Magic The Gathering Kamigawa Booster Box</h4>
+                    <p id="card-price4">$210.00</p>
+                </a>
+        
+            </div>
+        
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a onclick="setData5()"
+                   href="#">
+        
+                    <img id="card-img5"
+                         src="./img/yugiohmagicalhero.png">
+                    <h4 id="card-heading5">Yu-Gi-Oh! Legendary Duelists Magical Hero Booster Box</h4>
+                    <p id="card-price5">$400.00</p>
+                </a>
+        
+            </div>
+            <div class="col-4">
+                <a onclick="setData6()"
+                   href="#">
+        
+                    <img id="card-img6"
+                         src="./img/pokemonastralradiance.png">
+                    <h4 id="card-heading6">Pokémon Astral Radiance Booster Box</h4>
+                    <p id="card-price6">$100.00</p>
+                </a>
+        
+            </div>
+            <div class="col-4">
+                <a onclick="setData7()"
+                   href="#">
+        
+                    <img id="card-img7"
+                         src="./img/pokemonlostorigin.png">
+                    <h4 id="card-heading7">Pokémon Lost Origin Booster Box</h4>
+                    <p id="card-price7">$100.00</p>
+                </a>
+        
+            </div>
+            <div class="col-4">
+                <a href="#">
+        
+                    <img id="card-img8"
+                         src="./img/pokemondarknessablaze.png">
+                    <h4 id="card-heading8">Pokémon Darkness Ablaze Booster Box</h4>
+                    <p id="card-price8">$140.00</p>
+                </a>
+        
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a onclick="setData9()"
+                       href="#">
+        
+                        <img id="card-img9"
+                             src="./img/pokemonbrilliantstars.png">
+                        <h4 id="card-heading9">Pokémon Brilliant Stars Booster Box</h4>
+                        <p>$140.00</p>
+                    </a>
+        
+                </div>
+                <div class="col-4">
+                    <a onclick="setData10()"
+                       href="#">
+        
+                        <img id="card-img10"
+                             src="./img/pokemonchillingreign.png">
+                        <h4 id="card-heading10">Pokémon Chilling Reign Booster Box</h4>
+                        <p id="card-price10">$100.00</p>
+                    </a>
+        
+                </div>
+                <div class="col-4">
+                    <a onclick="setData11()"
+                       href="#">
+        
+                        <img id="card-img11"
+                             src="./img/pokemontrickortrade.png">
+                        <h4 id="card-heading11">Pokémon Trick or Trade Booster Bundle</h4>
+                        <p id="card-price11">$30.00</p>
+                    </a>
+        
+                </div>
+                <div class="col-4">
+                    <a onclick="setData12()"
+                       href="#">
+        
+                        <img id="card-img12"
+                             src="./img/yugiohgold.png">
+                        <h4 id="card-heading12">Yu-Gi-Oh! El Dorado Booster Box</h4>
+                        <p id="card-price12">$20.00</p>
+                    </a>
+        
+                </div>
+            </div>
+        
+        
+        </div>
 
-<div class="row">
-<div class="col-4">
-<img src="evolvingskiesboosterbox.png">
-<h4>Pokémon Evolving Skies Booster Box</h4>
-<p>$180.00</p>
-</div>
-<div class="col-4">
-<img src="vividvoltage.png">
-<h4>Vivid Voltage Booster Display</h4>
-<p>$140.00</p>
-</div>
-<div class="col-4">
-<img src="yugiohghost.png">
-<h4>Yu-Gi-Oh! Ghosts From The Past 2 Mini Box</h4>
-<p>$18.00</p>
-</div>
-<div class="col-4">
-<img src="mtg.png">
-<h4>Magic The Gathering Kamigawa Booster Box</h4>
-<p>$210.00</p>
-</div>
-
-</div>
-<div class="row">
-<div class="col-4">
-<img src="yugiohmagicalhero.png">
-<h4>Yu-Gi-Oh! Legendary Duelists Magical Hero Booster Box</h4>
-<p>$400.00</p>
-</div>
-<div class="col-4">
-<img src="pokemonastralradiance.png">
-<h4>Pokémon Astral Radiance Booster Box</h4>
-<p>$100.00</p>
-</div>
-<div class="col-4">
-<img src="pokemonlostorigin.png">
-<h4>Pokémon Lost Origin Booster Box</h4>
-<p>$100.00</p>
-</div>
-<div class="col-4">
-<img src="pokemondarknessablaze.png">
-<h4>Pokémon Darkness Ablaze Booster Box</h4>
-<p>$140.00</p>
-</div>
-<div class="row">
-<div class="col-4">
-<img src="pokemonbrilliantstars.png">
-<h4>Pokémon Brilliant Stars Booster Box</h4>
-<p>$140.00</p>
-</div>
-<div class="col-4">
-<img src="pokemonchillingreign.png">
-<h4>Pokémon Chilling Reign Booster Box</h4>
-<p>$100.00</p>
-</div>
-<div class="col-4">
-<img src="pokemontrickortrade.png">
-<h4>Pokémon Trick or Trade Booster Bundle</h4>
-<p>$30.00</p>
-</div>
-<div class="col-4">
-<img src="yugiohgold.png">
-<h4>Yu-Gi-Oh! El Dorado Booster Box</h4>
-<p>$20.00</p>
-</div>
-</div>
-
-
-</div>
-
-<!--------- footer -------->
-<div class="footer">
-<div class="container">
-<div class="row">
-<div class="footer-col-1">
-<h3>Useful Links</h3>
-<ul>
-<li>Return Policy</li>
-<li>Our Core Values</li>
-<li>Careers</li>
-</ul>
-</div>
-<div class="footer-col-2">
-<img src="logo.png">
-<p> Our Purpose Is To Sustainably Make the Pleasure and Benefits of Table Games Acessible to Everyone.</p>
-</div>
-<div class="footer-col-3">
-<h3>Follow Us</h3>
-<ul>
-<li>Facebook</li>
-<li>Twitter</li>
-<li>Instagran</li>
-<li>YouTube</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
+        <!--------- footer -------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Return Policy</li>
+                            <li>Our Core Values</li>
+                            <li>Careers</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./img/logo.png">
+                        <p> Our Purpose Is To Sustainably Make the Pleasure and Benefits of Table Games Acessible to
+                            Everyone.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagran</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+<script >
+    let setImg = document.getElementById("setImg");
+    let setHead = document.getElementById("setHead");
+    let setPrice = document.getElementById("setPrice");
+
+    let getData = () => {
+        setImg.src = localStorage.getItem("cardImg");
+        let pageFrom= document.getElementById("pageFrom")
+        pageFrom.innerHTML = localStorage.getItem("pageSet");
+        setHead.innerHTML = localStorage.getItem("cardHeading");
+        setPrice.innerHTML = localStorage.getItem("cardPrice");
+        console.log(setHead, "axdcde");
+    }
+setInterval(() => {
+    getData()
+    
+}, 500);    
+    </script>
+    <script src="./js/details.js"></script>
+    <script src="./js/cart.js"></script>
+
 </html>

@@ -37,6 +37,12 @@ p {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+.container2 {
+	max-width: 1300 px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
 .row {
 	display:flex;
 	align-items: center;
@@ -48,8 +54,19 @@ p {
 	min-width: 300px;
 }
 .col-2 img{
-	max-width: 100%;
+	width: 300px;
 	padding: 50px 0;
+}
+.btn-sm, .btn-group-sm>.btn{
+	margin-top: 3px !important;
+}
+.data-tbl{
+	padding-top: 15px !important;
+}
+.dt-t{
+	text-align: center;
+    padding-left: 0 !important;
+    padding-right: 27px !important;
 }
 .col-2 h1 {
 	font-size: 50px;
@@ -98,7 +115,9 @@ p {
 	margin-bottom: 50px;
 }
 .col-4 img {
-	width: 100%;
+	/* width: 100%; */
+	width: 200px;
+	height: 180px;
 }
 .title {
 	text-align: center;

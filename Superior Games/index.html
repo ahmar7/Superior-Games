@@ -1,122 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>SuperiorGames</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <meta charset="UTF-8">
+    <title>SuperiorGames</title>
+    <link rel="stylesheet"
+          href="./css/style.css">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
 </head>
+
 <body>
 
-<div class="header">
+    <div class="header">
 
-<div class="container">
-<div class="navbar">
-<div class="logo">
-<img src="./img/logo.png" width="125px">
-</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="tradingcards.html">Trading Cards</a></li>
-<li><a href="">Board Games</a></li>
-<li><a href="">Services</a></li>
-<li><a href="">Locations</a></li>
-<li><a href="">Events</a></li>
-</ul>
-</nav>
-<img src="./img/shoppingbag.png" width="30px" height="30px">
-</div>
-<div class="row">
-<div class="col-2">
-<h1>Welcome to Superior Games!</h1>
-<p>Here at Superior Games, we have the best deals on popular trading card games such as Pokémon and Yu-Gi-Oh!
-Come discover the newest trending board games and see what fun we have to offer.
-</p>
-<a href="" class="btn">Explore Now &#8594;</a>
-</div>
-<div class="col-2">
-<img src="./img/Pokemon_BattleAcademy_Featured.png">
-</div>
-</div>
-</div>
-</div>
-<!--------- featured categories ----------------->
-<div class="categories">
-<div class="small-container">
-<div class="row">
-<div class="col-3">
-<img src="./img/pokemoncardback.png">
-</div>
-<div class="col-3">
-<img src="./img/gamenight.png">
-</div>
-<div class="col-3">
-<img src="./img/boardgames.png">
-</div>
-</div>
-</div>
-</div>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./img/logo.png"
+                         width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tradingcards.html">Trading Cards</a></li>
+                        <li><a href="./boardGames.html">Board Games</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Locations</a></li>
+                        <li><a href="">Events</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./img/shoppingbag.png"
+                     width="30px"
+                     height="30px"></a>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Welcome to Superior Games!</h1>
+                    <p>Here at Superior Games, we have the best deals on popular trading card games such as Pokémon and
+                        Yu-Gi-Oh!
+                        Come discover the newest trending board games and see what fun we have to offer.
+                    </p>
+                    <a href=""
+                       class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./img/Pokemon_BattleAcademy_Featured.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------- featured categories ----------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/pokemoncardback.png">
+                </div>
+                <div class="col-3">
+                    <img src="./img/gamenight.png">
+                </div>
+                <div class="col-3">
+                    <img src="./img/boardgames.png">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<!------------- featured products -------------->
-<div class="small-container">
-<h2 class="title">Featured Products</h2>
-<div class="row">
-<div class="col-4">
-<img src="./img/evolvingskiesboosterbox.png">
-<h4>Pokémon Evolving Skies Booster Box</h4>
-<p>$180.00</p>
-</div>
-<div class="col-4">
-<img src="./img/batmanchessset.png">
-<h4>Batman Chess Set</h4>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="./img/yugiohghost.png">
-<h4>Yu-Gi-Oh! Ghosts From The Past 2 Mini Box</h4>
-<p>$18.00</p>
-</div>
-<div class="col-4">
-<img src="./img/mtg.png">
-<h4>Magic The Gathering Kamigawa Booster Box</h4>
-<p>$210.00</p>
-</div>
+    <!------------- featured products -------------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a onclick="setData()" href="./product_details.html">
+                    <img id="card-img" src="./img/evolvingskiesboosterbox.png">
+                    <h4 id="card-heading">Pokémon Evolving Skies Booster Box</h4>
+                    <p id="card-price">$180.00</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a onclick="setData2()" href="./product_details.html">
 
-</div>
+                    <img id="card-img2" src="./img/batmanchessset.png">
+                    <h4  id="card-heading2">Batman Chess Set</h4>
+                    <p  id="card-price2">$50.00</p>
+                </a>
 
-</div>
-<!--------- footer -------->
-<div class="footer">
-<div class="container">
-<div class="row">
-<div class="footer-col-1">
-<h3>Useful Links</h3>
-<ul>
-<li>Return Policy</li>
-<li>Our Core Values</li>
-<li>Careers</li>
-</ul>
-</div>
-<div class="footer-col-2">
-<img src="./img/logo.png">
-<p> Our Purpose Is To Sustainably Make the Pleasure and Benefits of Table Games Acessible to Everyone.</p>
-</div>
-<div class="footer-col-3">
-<h3>Follow Us</h3>
-<ul>
-<li>Facebook</li>
-<li>Twitter</li>
-<li>Instagran</li>
-<li>YouTube</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
+            </div>
+            <div class="col-4">
+                <a onclick="setData3()" href="./product_details.html">
+
+                    <img id="card-img3" src="./img/yugiohghost.png">
+                    <h4  id="card-heading3">Yu-Gi-Oh! Ghosts From The Past 2 Mini Box</h4>
+                    <p id="card-price3">$18.00</p>
+                </a>
+
+            </div>
+            <div class="col-4">
+                <a onclick="setData4()"  href="./product_details.html">
+
+                    <img id="card-img4" src="./img/mtg.png">
+                    <h4  id="card-heading4">Magic The Gathering Kamigawa Booster Box</h4>
+                    <p id="card-price4">$210.00</p>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--------- footer -------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Return Policy</li>
+                        <li>Our Core Values</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/logo.png">
+                    <p> Our Purpose Is To Sustainably Make the Pleasure and Benefits of Table Games Acessible to
+                        Everyone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagran</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="./js/details.js"></script>
+<script>
+
+
+
+    localStorage.setItem("pageSet", "Featured Products")
+
+
+
+</script>
 </html>
