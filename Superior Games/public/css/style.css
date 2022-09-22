@@ -2,6 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}:root {
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: #f5f5f5;
+} 
+:root {
+    --fc-daygrid-event-dot-width: 8px;
 }
 
 body {
@@ -166,6 +172,549 @@ p {
 }
 ul  {
 	list-style-type: none;
+}
+/* Events */
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+ 
+.dlYHte {
+    max-width: 940px;
+    position: relative;
+	margin: 0 auto !important;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+.eapp-events-calendar-events-calendar-component.jsx-1736407193 {
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+ 
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+ 
+.eapp-events-calendar-events-calendar-component {
+    display: block;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-width: 250px;
+}
+ .eapp-events-calendar-events-calendar-component:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+div {
+    display: block;
+}
+ 
+.dlYHte {
+    max-width: 940px;
+    position: relative;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+.eapp-events-calendar-events-calendar-component:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-events-calendar-header {
+    margin-bottom: 30px;
+} .eapp-events-calendar-events-calendar-title.jsx-1736407193 {
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+}
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+ 
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+ .eapp-events-calendar-list-item-component.jsx-1710363073 .eapp-events-calendar-date-element-component {
+    margin-right: 0px;
+}
+
+
+.eapp-events-calendar-date-element-component.jsx-2798766427 {
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-date {
+    margin: -20px 24px -20px -20px;
+    width: 75px;
+}
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-date-element-start {
+    width: 35px;
+    height: 44px;
+}.eapp-events-calendar-date-element-month.jsx-2798766427, .eapp-events-calendar-date-element-day.jsx-2798766427 {
+    color: rgb(244, 45, 59);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-date-element-month {
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}.eapp-events-calendar-date-element-month.jsx-2798766427, .eapp-events-calendar-date-element-day.jsx-2798766427 {
+    color: rgb(244, 45, 59);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+
+.eapp-events-calendar-date-element-day {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+.eapp-events-calendar-list-item-infoContainer {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}.eapp-events-calendar-list-item-info {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+}.eapp-events-calendar-list-item-info > div:first-child {
+    margin-left: 0;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-imageContainer {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 24px;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}.eapp-events-calendar-list-item-imageContainer img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-media-loaded {
+    opacity: 1;
+}
+
+.eapp-events-calendar-media-image {
+    opacity: 0;
+    transition: 0.3s ease opacity;
+}.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-infoInner {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-left: 24px;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+}.eapp-events-calendar-list-item-infoInner div:first-child {
+    margin-top: 0;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-category-component {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}.eapp-events-calendar-list-item-infoInner div:first-child {
+    margin-top: 0;
+}
+
+.eapp-events-calendar-category-item.jsx-310741149 {
+    color: rgba(29, 33, 41, 0.7);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}.eapp-events-calendar-name-component.jsx-2166926583 {
+    color: rgb(29, 33, 41);
+    font-size: 18px;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-name {
+    margin-top: 4px;
+}
+
+.eapp-events-calendar-name-component {
+    font-size: 18px;
+    font-weight: bold;
+    color: currentColor;
+}.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-locationAndTime {
+    margin: 8px -4px 0;
+    max-width: 100%;
+}.eapp-events-calendar-list-item-infoInner div:first-child {
+    margin-top: 0;
+}
+
+.eapp-events-calendar-time-component.jsx-3190899818 {
+    background-color: rgba(29, 33, 41, 0.06);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-time {
+    margin: 0 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+
+.eapp-events-calendar-time-component {
+    border-radius: 13px;
+    background-color: rgba(17,17,17,0.06);
+    padding: 4px 16px 4px 7px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    max-width: 100%;
+}.eapp-events-calendar-time-icon.jsx-3190899818 {
+    fill: rgb(29, 33, 41);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-time-icon {
+    width: 12px;
+    height: 12px;
+    display: -webkit-flex;
+    display: flex;
+    fill: currentColor;
+}.eapp-events-calendar-time-text.jsx-3190899818 {
+    color: rgb(29, 33, 41);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-time-text {
+    font-size: 13px;
+    margin-left: 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}.eapp-events-calendar-list-item-locationAndTime > div:not(:first-child) {
+    margin: 4px;
+}
+
+.eapp-events-calendar-location-component.jsx-654471426 {
+    background-color: rgba(29, 33, 41, 0.06);
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-location {
+    margin: 0 4px;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+
+.eapp-events-calendar-location-component {
+    border-radius: 13px;
+    background-color: rgba(17,17,17,0.06);
+    padding: 4px 16px 4px 7px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+}.eapp-events-calendar-button-element-component.jsx-1219203285 {
+    padding-bottom: 0px;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-button {
+    margin: 8px 0 8px auto;
+}
+
+.eapp-events-calendar-button-element-component {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}.eapp-events-calendar-button-element-component .eapp-events-calendar-button-component {
+    margin: 0;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-button-component {
+    margin: 28px 0;
+}.eapp-events-calendar-button-link.jsx-4143192054 {
+    height: 32px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(233, 32, 46);
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.eapp-events-calendar-button-element-component .eapp-events-calendar-button-link {
+    text-transform: uppercase;
+    height: 36px !important;
+}
+
+.bXTtAZ {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-button-link {
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0.75em 2.375em;
+    outline: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1;
+    transition-property: border-color, background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+.eapp-events-calendar-date-element-inline {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.eapp-events-calendar-date-element-component {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+}
+.eapp-events-calendar-events-calendar-layout {
+    z-index: 1;
+    position: relative;
+}
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+} .eapp-events-calendar-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+} 
+.eapp-events-calendar-events-calendar-component.jsx-1736407193 .eapp-events-calendar-list-item-component, .eapp-events-calendar-events-calendar-component.jsx-1736407193 .eapp-events-calendar-grid-item-component, .eapp-events-calendar-events-calendar-component.jsx-1736407193 .eapp-events-calendar-masonry-item-component, .eapp-events-calendar-events-calendar-component.jsx-1736407193 .eapp-events-calendar-masonry-item-inner, .eapp-events-calendar-events-calendar-component.jsx-1736407193 .eapp-events-calendar-slider-item-component {
+}
+
+
+.eapp-events-calendar-list-item-component.jsx-1710363073 {
+    background-color: rgb(250, 250, 250);
+    border-radius: 12px;
+}
+
+.eapp-events-calendar-list-item-component:first-child {
+    margin-top: 0;
+}
+
+.dlYHte, .dlYHte * {
+    box-sizing: border-box !important;
+    outline: none !important;
+}
+
+.eapp-events-calendar-list-item-component {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    overflow: hidden;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+    min-height: 40px;
+}
+.eapp-events-calendar-list-events {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.eapp-events-calendar-list-component {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.eapp-events-calendar-events-calendar-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: currentColor;
+    z-index: 1;
+    position: relative;
+}
+div {
+    display: block;
+}
+
+.dlYHte {
+    max-width: 940px;
+    position: relative;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 /*------------------------ trading cards -----------------*/
 .row-2 {

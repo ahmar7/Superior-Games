@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Events - SuperiorGames</title>
+    <link rel="stylesheet"
+          href="./css/style.css">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link rel="stylesheet"
+          href="./css/cart.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+          rel="stylesheet"
+          id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6fd519cc43.js"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCHZwOoLUhaaXaWZTld_rewBztbYxw6j2A",
+            authDomain: "todoliaj.firebaseapp.com",
+            projectId: "todoliaj",
+            storageBucket: "todoliaj.appspot.com",
+            messagingSenderId: "597308355148",
+            appId: "1:597308355148:web:c36a0657ba9813e0463ae9",
+            measurementId: "G-SVY35WC8ED"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+
+<body>
+
+    <div class="container2">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/logo.png"
+                     width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tradingcards.html">Trading Cards</a></li>
+                    <li><a href="./boardGames.html">Board Games</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./location.html">Locations</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./img/shoppingbag.png"
+                     width="30px"
+                     height="30px"></a>
+        </div>
+    </div>
+    <!-- Events -->
+    <div id="element">
+        <div id="eapps-events-calendar-0c3cad17-d1f0-4ff1-a169-f7573597d9c0"
+             class="RootLayout__Component-sc-1doisyz-0 dlYHte eapps-events-calendar-0c3cad17-d1f0-4ff1-a169-f7573597d9c0-custom-css-hook"
+             data-app="eapps-events-calendar"
+             data-app-version="1.5.7">
+            <div class="jsx-1736407193 eapp-events-calendar-events-calendar-component">
+                <div class="jsx-1736407193 eapp-events-calendar-events-calendar-header">
+                    <div class="jsx-1736407193 eapp-events-calendar-events-calendar-title">Event Schedule</div>
+                </div>
+                <div class="jsx-1736407193 eapp-events-calendar-events-calendar-layout">
+                    <div class="eapp-events-calendar-list-component">
+                        <div class="eapp-events-calendar-list-item">
+                            <div class="eapp-events-calendar-list-events">
+                                <div class="jsx-1710363073 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Astros","location":{"@type":"AdministrativeArea","name":"AT&T Park – San Francisco Giants","address":"24 Willie Mays Plaza, San Francisco, CA 94107, USA"},"startDate":"2030-12-01","endDate":"2030-12-01"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">1</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1710363073 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1710363073 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/_assets/events-calendar/test-data/match-1.png"
+                                                     alt="vs.Astros"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-310741149 eapp-events-calendar-category-component">
+                                                    <div class="jsx-310741149 eapp-events-calendar-category-item">Away</div>
+                                                </div>
+                                                <div
+                                                     class="jsx-2166926583 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Astros</div>
+                                                <div class="jsx-1710363073 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3190899818 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3190899818 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3190899818"></path>
+                                                        </svg>
+                                                        <div class="jsx-3190899818 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3190899818 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="AT&amp;T Park – San Francisco Giants"
+                                                         class="jsx-654471426 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-654471426 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-654471426"></path>
+                                                        </svg>
+                                                        <div class="jsx-654471426 eapp-events-calendar-location-text">
+                                                            AT&amp;T Park – San Francisco Giants</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1219203285 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jsx-1710363073 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Rangers","location":{"@type":"AdministrativeArea","name":"Petco Park – San Diego Padres","address":"100 Park Blvd, San Diego, CA 92101, USA"},"startDate":"2030-12-02","endDate":"2030-12-02"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">2</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1710363073 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1710363073 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/_assets/events-calendar/test-data/match-2.png"
+                                                     alt="vs.Rangers"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-310741149 eapp-events-calendar-category-component">
+                                                    <div class="jsx-310741149 eapp-events-calendar-category-item">Away</div>
+                                                </div>
+                                                <div
+                                                     class="jsx-2166926583 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Rangers</div>
+                                                <div class="jsx-1710363073 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3190899818 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3190899818 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3190899818"></path>
+                                                        </svg>
+                                                        <div class="jsx-3190899818 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3190899818 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="Petco Park – San Diego Padres"
+                                                         class="jsx-654471426 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-654471426 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-654471426"></path>
+                                                        </svg>
+                                                        <div class="jsx-654471426 eapp-events-calendar-location-text">Petco
+                                                            Park – San Diego Padres</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1219203285 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jsx-1717751159 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Angels","location":{"@type":"AdministrativeArea","name":"AT&T Park – San Francisco Giants","address":"24 Willie Mays Plaza, San Francisco, CA 94107, USA"},"startDate":"2030-12-03","endDate":"2030-12-03"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">3</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1717751159 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1717751159 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1717751159 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/a917320b-9caf-4dca-808d-c96251e5748e/3c0b9686-a145-480d-96f7-bf63a06ab497.png"
+                                                     alt="vs.Angels"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1717751159 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-3990291809 eapp-events-calendar-category-component">
+                                                    <div class="jsx-3990291809 eapp-events-calendar-category-item">Home
+                                                    </div>
+                                                </div>
+                                                <div
+                                                     class="jsx-1165231371 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Angels</div>
+                                                <div class="jsx-1717751159 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3241499958 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3241499958 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3241499958"></path>
+                                                        </svg>
+                                                        <div class="jsx-3241499958 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3241499958 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="AT&amp;T Park – San Francisco Giants"
+                                                         class="jsx-1223560094 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-1223560094 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-1223560094"></path>
+                                                        </svg>
+                                                        <div class="jsx-1223560094 eapp-events-calendar-location-text">
+                                                            AT&amp;T Park – San Francisco Giants</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1987418921 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jsx-1717751159 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Twins","location":{"@type":"AdministrativeArea","name":"Petco Park – San Diego Padres","address":"100 Park Blvd, San Diego, CA 92101, USA"},"startDate":"2030-12-04","endDate":"2030-12-04"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">4</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1717751159 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1717751159 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1717751159 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/_assets/events-calendar/test-data/match-4.png"
+                                                     alt="vs.Twins"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1717751159 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-3990291809 eapp-events-calendar-category-component">
+                                                    <div class="jsx-3990291809 eapp-events-calendar-category-item">Home
+                                                    </div>
+                                                </div>
+                                                <div
+                                                     class="jsx-1165231371 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Twins</div>
+                                                <div class="jsx-1717751159 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3241499958 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3241499958 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3241499958"></path>
+                                                        </svg>
+                                                        <div class="jsx-3241499958 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3241499958 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="Petco Park – San Diego Padres"
+                                                         class="jsx-1223560094 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-1223560094 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-1223560094"></path>
+                                                        </svg>
+                                                        <div class="jsx-1223560094 eapp-events-calendar-location-text">Petco
+                                                            Park – San Diego Padres</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1987418921 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jsx-1710363073 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Tigers","location":{"@type":"AdministrativeArea","name":"AT&T Park – San Francisco Giants","address":"24 Willie Mays Plaza, San Francisco, CA 94107, USA"},"startDate":"2030-12-05","endDate":"2030-12-05"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">5</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1710363073 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1710363073 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/_assets/events-calendar/test-data/match-5.png"
+                                                     alt="vs.Tigers"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-310741149 eapp-events-calendar-category-component">
+                                                    <div class="jsx-310741149 eapp-events-calendar-category-item">Away</div>
+                                                </div>
+                                                <div
+                                                     class="jsx-2166926583 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Tigers</div>
+                                                <div class="jsx-1710363073 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3190899818 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3190899818 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3190899818"></path>
+                                                        </svg>
+                                                        <div class="jsx-3190899818 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3190899818 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="AT&amp;T Park – San Francisco Giants"
+                                                         class="jsx-654471426 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-654471426 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-654471426"></path>
+                                                        </svg>
+                                                        <div class="jsx-654471426 eapp-events-calendar-location-text">
+                                                            AT&amp;T Park – San Francisco Giants</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1219203285 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jsx-1717751159 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Red Sox","location":{"@type":"AdministrativeArea","name":"Petco Park – San Diego Padres","address":"100 Park Blvd, San Diego, CA 92101, USA"},"startDate":"2030-12-06","endDate":"2030-12-06"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">6</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1717751159 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1717751159 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1717751159 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/_assets/events-calendar/test-data/match-6.png"
+                                                     alt="vs.Red Sox"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1717751159 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-3990291809 eapp-events-calendar-category-component">
+                                                    <div class="jsx-3990291809 eapp-events-calendar-category-item">Home
+                                                    </div>
+                                                </div>
+                                                <div
+                                                     class="jsx-1165231371 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Red Sox</div>
+                                                <div class="jsx-1717751159 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3241499958 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3241499958 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3241499958"></path>
+                                                        </svg>
+                                                        <div class="jsx-3241499958 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3241499958 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="Petco Park – San Diego Padres"
+                                                         class="jsx-1223560094 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-1223560094 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-1223560094"></path>
+                                                        </svg>
+                                                        <div class="jsx-1223560094 eapp-events-calendar-location-text">Petco
+                                                            Park – San Diego Padres</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1987418921 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jsx-1710363073 eapp-events-calendar-list-item-component">
+                                    <script
+                                            type="application/ld+json">{"@context":"https://schema.org/","@type":"Event","name":"vs.Royals","location":{"@type":"AdministrativeArea","name":"AT&T Park – San Francisco Giants","address":"24 Willie Mays Plaza, San Francisco, CA 94107, USA"},"startDate":"2030-12-07","endDate":"2030-12-07"}</script>
+                                    <div
+                                         class="jsx-2798766427 eapp-events-calendar-date-element-component eapp-events-calendar-list-item-date  eapp-events-calendar-date-element-inline">
+                                        <div class="jsx-2798766427 eapp-events-calendar-date-element-start">
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-month">Dec</div>
+                                            <div class="jsx-2798766427 eapp-events-calendar-date-element-day">7</div>
+                                        </div>
+                                    </div>
+                                    <div class="jsx-1710363073 eapp-events-calendar-list-item-infoContainer">
+                                        <div class="jsx-1710363073 eapp-events-calendar-list-item-info">
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-imageContainer"><img
+                                                     src="https://files.elfsight.com/storage/_assets/events-calendar/test-data/match-3.png"
+                                                     alt="vs.Royals"
+                                                     class="eapp-events-calendar-media-image eapp-events-calendar-media-loaded">
+                                            </div>
+                                            <div class="jsx-1710363073 eapp-events-calendar-list-item-infoInner">
+                                                <div class="jsx-310741149 eapp-events-calendar-category-component">
+                                                    <div class="jsx-310741149 eapp-events-calendar-category-item">Away</div>
+                                                </div>
+                                                <div
+                                                     class="jsx-2166926583 eapp-events-calendar-name-component eapp-events-calendar-list-item-name">
+                                                    vs.Royals</div>
+                                                <div class="jsx-1710363073 eapp-events-calendar-list-item-locationAndTime">
+                                                    <div
+                                                         class="jsx-3190899818 eapp-events-calendar-time-component eapp-events-calendar-list-item-time">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 12 12"
+                                                             class="jsx-3190899818 eapp-events-calendar-time-icon">
+                                                            <path d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12zm.984-4.97a.454.454 0 0 1-.07.154l-.026.038a.5.5 0 0 1-.655.148L3.55 5.857a.454.454 0 0 1-.149-.655.551.551 0 0 1 .722-.164l1.877 1.059V2.9a.5.5 0 1 1 1 0v4a.5.5 0 0 1-.017.13z"
+                                                                  class="jsx-3190899818"></path>
+                                                        </svg>
+                                                        <div class="jsx-3190899818 eapp-events-calendar-time-text">
+                                                            <div title="03:00 PM - 05:00 PM"
+                                                                 class="jsx-3190899818 eapp-events-calendar-time-time">03:00
+                                                                PM - 05:00 PM</div>
+                                                        </div>
+                                                    </div>
+                                                    <div title="AT&amp;T Park – San Francisco Giants"
+                                                         class="jsx-654471426 eapp-events-calendar-location-component eapp-events-calendar-list-item-location">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             width="12"
+                                                             height="12"
+                                                             viewBox="0 0 10 12"
+                                                             class="jsx-654471426 eapp-events-calendar-location-icon">
+                                                            <path d="M5 12C1.667 9.174 0 6.84 0 5a5 5 0 1 1 10 0c0 1.84-1.667 4.174-5 7zm0-6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                                                                  class="jsx-654471426"></path>
+                                                        </svg>
+                                                        <div class="jsx-654471426 eapp-events-calendar-location-text">
+                                                            AT&amp;T Park – San Francisco Giants</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                 class="jsx-1219203285 eapp-events-calendar-button-element-component eapp-events-calendar-list-item-button">
+                                                <div class="eapp-events-calendar-button-component">
+                                                    <div class="Button__Block-sc-1c0eo6i-0 bXTtAZ jsx-4143192054 eapp-events-calendar-button-link"
+                                                         tabindex="0"
+                                                         role="button">Get Tickets</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events -->
+    <div style="width: 100%; margin-top: 50px;"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+                width="100%"
+                height="300"
+                frameborder="0"
+                style="border:0"></iframe>
+    </div>
+    <!--------- footer -------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Return Policy</li>
+                        <li>Our Core Values</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/logo.png">
+                    <p> Our Purpose Is To Sustainably Make the Pleasure and Benefits of Table Games Acessible to
+                        Everyone.</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagran</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
