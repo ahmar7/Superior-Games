@@ -3,136 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SuperiorGames</title>
+    <title>Service - SuperiorGames</title>
     <link rel="stylesheet"
           href="./css/style.css">
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    
+ 
+        <link rel="stylesheet"
+              href="./css/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap"
           rel="stylesheet">
+    
+    
+    
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+          href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet"
+          href="css/form.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700'
+          rel='stylesheet'
+          type='text/css'>
+    
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 
 <body>
 
-    <div class="header">
-
+    <div class="container2">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/logo.png"
+                     width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tradingcards.html">Trading Cards</a></li>
+                    <li><a href="./boardGames.html">Board Games</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="">Events</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./img/shoppingbag.png"
+                     width="30px"
+                     height="30px"></a>
+        </div>
+    </div>
+    <!-- Contact Area Start -->
+    <div class="content">
+    
         <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="./img/logo.png"
-                         width="125px">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tradingcards.html">Trading Cards</a></li>
-                        <li><a href="./boardGames.html">Board Games</a></li>
-                        <li><a href="./service.html">Services</a></li>
-                        <li><a href="">Locations</a></li>
-                        <li><a href="">Events</a></li>
-                    </ul>
-                </nav>
-                <a href="./cart.html"><img src="./img/shoppingbag.png"
-                         width="30px"
-                         height="30px"></a>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Welcome to Superior Games!</h1>
-                    <p>Here at Superior Games, we have the best deals on popular trading card games such as Pokémon and
-                        Yu-Gi-Oh!
-                        Come discover the newest trending board games and see what fun we have to offer.
-                    </p>
-                    <a href=""
-                       class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="./img/Pokemon_BattleAcademy_Featured.png">
+    
+    
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+    
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 mb-5 mb-lg-0">
+    
+                            <h2 class="mb-5">Fill the form. <br> It's easy.</h2>
+    
+                            <form class="border-right pr-5 mb-5"
+                                  method="post"
+                                  id="contactForm"
+                                  name="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text"
+                                               class="form-control"
+                                               name="fname"
+                                               id="fname"
+                                               placeholder="First name">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text"
+                                               class="form-control"
+                                               name="lname"
+                                               id="lname"
+                                               placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text"
+                                               class="form-control"
+                                               name="email"
+                                               id="email"
+                                               placeholder="Email">
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <textarea class="form-control"
+                                                  name="message"
+                                                  id="message"
+                                                  cols="30"
+                                                  rows="7"
+                                                  placeholder="Write your message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="submit"
+                                               value="Send Message"
+                                               class="btn btn-primary rounded-0 py-2 px-4">
+                                        <span class="submitting"></span>
+                                    </div>
+                                </div>
+                            </form>
+    
+                            <div id="form-message-warning mt-4"></div>
+                            <div id="form-message-success">
+                                Your message was sent, thank you!
+                            </div>
+    
+                        </div>
+                        <div class="col-lg-4 ml-auto">
+                            <h3 class="mb-4">Let's talk about everything.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil deleniti itaque similique
+                                magni. Magni, laboriosam perferendis maxime!</p>
+                            <p><a href="#">Read more</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--------- featured categories ----------------->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="./img/pokemoncardback.png">
-                </div>
-                <div class="col-3">
-                    <img src="./img/gamenight.png">
-                </div>
-                <div class="col-3">
-                    <img src="./img/boardgames.png">
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Contact Area End -->
 
-
-    <!------------- featured products -------------->
-    <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <a onclick="setData()"
-                   href="./product_details.html">
-                    <img id="card-img"
-                         src="./img/evolvingskiesboosterbox.png">
-                    <h4 id="card-heading">Pokémon Evolving Skies Booster Box</h4>
-                    <span>$</span>
-                    <p id="card-price"
-                       class="display-inline">180.00</p>
-                </a>
-            </div>
-            <div class="col-4">
-                <a onclick="setData2()"
-                   href="./product_details.html">
-
-                    <img id="card-img2"
-                         src="./img/batmanchessset.png">
-                    <h4 id="card-heading2">Batman Chess Set</h4>
-                    <span>$</span>
-                    <p id="card-price2"
-                       class="display-inline">50.00</p>
-                </a>
-
-            </div>
-            <div class="col-4">
-                <a onclick="setData3()"
-                   href="./product_details.html">
-
-                    <img id="card-img3"
-                         src="./img/yugiohghost.png">
-                    <h4 id="card-heading3">Yu-Gi-Oh! Ghosts From The Past 2 Mini Box</h4>
-                    <span>$</span>
-                    <p id="card-price3"
-                       class="display-inline">18.00</p>
-                </a>
-
-            </div>
-            <div class="col-4">
-                <a onclick="setData4()"
-                   href="./product_details.html">
-
-                    <img id="card-img4"
-                         src="./img/mtg.png">
-                    <h4 id="card-heading4">Magic The Gathering Kamigawa Booster Box</h4>
-                    <span>$</span>
-                    <p id="card-price4"
-                       class="display-inline">210.00</p>
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
     <!--------- footer -------->
     <div class="footer">
         <div class="container">
@@ -149,6 +153,7 @@
                     <img src="./img/logo.png">
                     <p> Our Purpose Is To Sustainably Make the Pleasure and Benefits of Table Games Acessible to
                         Everyone.</p>
+
                 </div>
                 <div class="footer-col-3">
                     <h3>Follow Us</h3>
@@ -164,14 +169,7 @@
     </div>
 </body>
 <script src="./js/details.js"></script>
-<script>
 
-
-
-    localStorage.setItem("pageSet", "Featured Products")
-
-
-
-</script>
+<script src="./js/data.js"></script>
 
 </html>

@@ -2,7 +2,6 @@ firebase
   .database()
   .ref("Cart")
   .on("child_added", function (data) {
-     
     let tr = document.createElement("tr");
     let br = document.createElement("br");
     // First td
@@ -63,21 +62,28 @@ firebase
     tr.appendChild(subTotal);
     tr.appendChild(deleteBtn);
 
-    var setCart = document.getElementById("setCart"); 
-    // setCart.appendChild(br2); 
-    setCart.appendChild(tr); 
-    // setCart.appendChild(br); 
-  
+    var setCart = document.getElementById("setCart");
+    // setCart.appendChild(br2);
+    setCart.appendChild(tr);
+    // setCart.appendChild(br);
   });
 
-
 function dellval(o) {
-//   console.log(o.id);
+  //   console.log(o.id);
   firebase.database().ref("Cart").child(o.id).remove();
-    o.parentNode.remove();
+  o.parentNode.remove();
 }
 
 function deleteBtn() {
   firebase.database().ref("Cart").remove();
   setCart.innerHTML = "";
+}
+let carted = document.getElementById("cart");
+let loading = document.getElementById("loading");
+
+setTimeout(myGreeting, 3000);
+
+function myGreeting() {
+  carted.classList.remove("hide-it");
+  loading.classList.add("hide-it");
 }
