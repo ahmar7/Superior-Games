@@ -173,10 +173,38 @@ p {
 ul  {
 	list-style-type: none;
 }
+/* Cart */
+ 
+.container {
+    width: 1170px;
+}
+ 
+/* Cart */
 /* Events */
- 
+.alignright {
+  float: right !important;
+}
+.wrap,
+.section-inner,
+.footer-main,
+.pageFrame {
+  max-width: 94%;
+  margin-right: auto;
+  margin-top: 42px;
+  margin-left: auto;
+}
+p {
+  margin: 0 0 10px;
+  color: #555;
+}
+.main__2col a {
+  color: crimson;
+}
+.h1 {
+  color: rgb(122, 97, 59);
+  margin-bottom: 15px;
+}
 
- 
 /* Events */
  
 
