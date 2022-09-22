@@ -61,7 +61,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="tradingcards.html">Trading Cards</a></li>
                     <li><a href="./boardGames.html">Board Games</a></li>
-                    <li><a href="">Services</a></li>
+                    <li><a href="./service.html">Services</a></li>
                     <li><a href="">Locations</a></li>
                     <li><a href="">Events</a></li>
                 </ul>
@@ -86,20 +86,19 @@
                 </tr>
             </thead>
             <tbody id="setCart">
-           
             </tbody>
             <tfoot>
                 <tr class="visible-xs">
-                    <td class="text-center"><strong>Total 1.99</strong></td>
+                    <td class="text-center"><strong> </strong></td>
                 </tr>
                 <tr>
                     <td><a href="./index.html"
                            class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
                     <td colspan="2"
                         class="hidden-xs"></td>
-                    <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
-                    <td><a href="#"
-                           class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                    <td class="hidden-xs text-center"><strong>  <span id="subtot"></span> </strong></td>
+                    <td><a href="#" onclick="deleteBtn()"
+                           class="btn btn-success btn-block">Remove All <i class="fa fa-trash-o"></i></a></td>
                 </tr>
             </tfoot>
         </table>

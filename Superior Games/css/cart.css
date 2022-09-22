@@ -41,3 +41,8 @@ nav ul li a{
     text-decoration: none !important;
     font-size: 1.6rem !important;
 }
+.img-responsive{
+	width: 60px !important;
+    height: 61px !important;
+}
+ 
